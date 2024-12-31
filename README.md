@@ -110,3 +110,19 @@ if __name__ == "__main__":
 ```
 # 屏幕截图
 ![github Logo](https://github.com/sun12yyds/python-Minesweeper/blob/main/ph/1.png)
+# 打包思路
+1.安装 PyInstaller：
+确保你已经安装了。你可以使用以下命令通过来安装：     PyInstallerpip
+
+2.pip install pyinstaller
+编写 Python 程序：
+确保你的Python程序（如上面的扫雷游戏代码）保存在一个文件中，例如。minesweeper.py
+
+3.打包程序：
+打开命令行终端，导航到保存的目录，然后运行以下命令：minesweeper.py
+
+      pyinstaller --onefile --windowed minesweeper.py
+      --onefile选项将所有文件打包到一个可执行文件中。
+      --windowed选项确保在运行时不显示命令行窗口（适用于GUI应用程序）。
+找到可执行文件：
+PyInstaller 将创建一个目录，里面包含你的可执行文件。你可以在目录中找到它。distminesweeper.exedist
