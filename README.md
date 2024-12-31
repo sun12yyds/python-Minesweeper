@@ -113,6 +113,7 @@ if __name__ == "__main__":
 # 打包思路
 1.安装 PyInstaller：
 确保你已经安装了。你可以使用以下命令通过来安装：
+     
      pip install pyinstaller
 
 2.pip install pyinstaller
