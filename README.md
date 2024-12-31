@@ -109,3 +109,4 @@ if __name__ == "__main__":
     root.mainloop()
 ```
 # 屏幕截图
+![github Logo](https://github.com/sun12yyds/python-Minesweeper/blob/main/ph/1.png)
