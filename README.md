@@ -108,3 +108,4 @@ if __name__ == "__main__":
     game = Minesweeper(root)
     root.mainloop()
 ```
+# 屏幕截图
