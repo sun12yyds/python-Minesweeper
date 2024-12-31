@@ -112,7 +112,8 @@ if __name__ == "__main__":
 ![github Logo](https://github.com/sun12yyds/python-Minesweeper/blob/main/ph/1.png)
 # 打包思路
 1.安装 PyInstaller：
-确保你已经安装了。你可以使用以下命令通过来安装：     PyInstallerpip
+确保你已经安装了。你可以使用以下命令通过来安装：
+     pip install pyinstaller
 
 2.pip install pyinstaller
 编写 Python 程序：
